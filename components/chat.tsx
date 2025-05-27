@@ -58,6 +58,7 @@ export function Chat({
     experimental_resume,
     data,
   } = useChat({
+    api: 'http://localhost:8000/api/chat',
     id,
     initialMessages,
     experimental_throttle: 100,
